@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(which node *)",
+      "Bash(mkdir -p \"/Users/amygout/Desktop/Portfolio website/app/work/[slug]\")"
+    ]
+  }
+}
