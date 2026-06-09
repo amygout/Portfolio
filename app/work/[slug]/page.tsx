@@ -3,8 +3,9 @@ import { ArrowLeft } from "lucide-react";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 
-export default function WorkPage({ params }: { params: { slug: string } }) {
-  const title = params.slug
+export default async function WorkPage({ params }: { params: Promise<{ slug: string }> }) {
+  const { slug } = await params;
+  const title = slug
     .split("-")
     .map((w) => w[0].toUpperCase() + w.slice(1))
     .join(" ");
