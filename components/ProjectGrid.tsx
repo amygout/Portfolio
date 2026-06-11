@@ -17,18 +17,6 @@ const PROJECTS: Project[] = [
     objectFit: "contain",
   },
   {
-    slug: "360-amsterdam",
-    title: "360 Amsterdam Tours — Social Media Guide",
-    category: "Grafisch Ontwerp",
-    year: "2025",
-    description:
-      "Brand guidelines voor social media: kleurenpalet, typografie en Instagram-richtlijnen voor 360 Amsterdam Tours.",
-    coverImage: "/360-amsterdam-cover.jpg",
-    tags: ["Brand Guidelines", "Social Media", "Typografie"],
-    href: "/360-amsterdam-social-media-guide.pdf",
-    bgColor: "#FBF6EB",
-  },
-  {
     slug: "gout-de-soleil",
     title: "Gout de Soleil — Merkidentiteit",
     category: "Grafisch Ontwerp",
