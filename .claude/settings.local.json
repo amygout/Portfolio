@@ -2,7 +2,10 @@
   "permissions": {
     "allow": [
       "Bash(which node *)",
-      "Bash(mkdir -p \"/Users/amygout/Desktop/Portfolio website/app/work/[slug]\")"
+      "Bash(mkdir -p \"/Users/amygout/Desktop/Portfolio website/app/work/[slug]\")",
+      "Bash(brew install *)",
+      "Bash(git add *)",
+      "Bash(git commit *)"
     ]
   }
 }
